@@ -1,0 +1,49 @@
+html,body{
+    overflow-x: hidden;
+}
+/* Extra */
+nav .hvr-bounce-to-top:before{
+    border-radius: 5px;
+    background: #2471A3;
+}
+nav .hvr-bounce-to-bottom::before{
+    background: #2471A3;
+    border-radius: 5px;
+}
+/* Navbar */
+nav{
+    background: #17202A;
+}
+nav ul li{
+    padding: 0 10px;
+}
+nav ul li a{
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Header */
+.header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('./pics/ru979pdjir0z.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+.header h1,p{
+    text-align: center;
+    color: #F7F9F9;
+    opacity: 0.7;
+}
+.header h1{
+    font-size: 60px;
+    padding-top: 200px;
+}
+.header p{
+    font-size: 55px;
+}
+/* Content */
+.intro{
+    margin-top: 35px;
+}
+.intro h1{
+    text-align: center;
+}
